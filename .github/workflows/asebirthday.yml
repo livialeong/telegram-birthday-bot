@@ -25,5 +25,6 @@ jobs:
       - name: Run birthday bot
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python birthday_bot.py
