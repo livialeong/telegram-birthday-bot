@@ -2,7 +2,7 @@ name: Birthday Bot
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # runs daily at 9am Singapore time
+    - cron: "0 23 * * *"   # runs daily at 7am Singapore time
   workflow_dispatch:      # allows manual run
 
 jobs:
